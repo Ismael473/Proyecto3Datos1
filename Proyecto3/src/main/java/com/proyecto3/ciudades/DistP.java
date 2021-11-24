@@ -24,7 +24,7 @@ public class DistP {
      * @return the distance between points
      */
     public double getDistanceBetweenPoints(Ciudad ciudadorigen, Ciudad ciudaddestino) {
-        //Un formato para el la distancia resultante
+        //Un formato para la distancia resultante
         DecimalFormat formato1 = new DecimalFormat("#.00");
 
         // El radio del planeta tierra en metros.

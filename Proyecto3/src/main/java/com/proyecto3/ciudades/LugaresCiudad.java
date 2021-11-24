@@ -29,7 +29,7 @@ public class LugaresCiudad {
         Places ObjPlace = new Places();
         //Se intenta obtener una lista de los lugares
         try {
-            //Se solicita una matriz con los lugares a una distancia de 3km al rededor del punto de las coordenadas
+            //Se solicita una matriz con los lugares a una distancia de 3km alrededor del punto de las coordenadas
             String[][] resultado = ObjPlace.getPlaces(latitud, longitud,
                     3000, "", "", Places.Rankby.prominence, null);
             //Se entra a un bucle for en el cual se recorre la matriz del resultado y se agrega el nombre a listalugares

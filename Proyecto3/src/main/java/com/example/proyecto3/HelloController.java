@@ -13,6 +13,11 @@ public class HelloController {
     private Label welcomeText;
 
     @FXML
+    protected void ButtonClick() {
+        System.out.println("Hola");
+        }
+
+    @FXML
     protected void onHelloButtonClick() {
 
         welcomeText.setText("Welcome to JavaFX Application!");
