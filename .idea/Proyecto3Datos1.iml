@@ -5,9 +5,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="MapsJava" level="project" />
-    <orderEntry type="library" name="jackson-annotations-2.9.9" level="project" />
-    <orderEntry type="library" name="jackson-core-2.9.9" level="project" />
-    <orderEntry type="library" name="jackson-databind-2.9.8 (1)" level="project" />
   </component>
 </module>
