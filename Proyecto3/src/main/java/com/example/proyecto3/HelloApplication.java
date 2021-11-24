@@ -1,11 +1,12 @@
 package com.example.proyecto3;
-
+import com.proyecto3.ciudades.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class HelloApplication extends Application {
     @Override
@@ -15,9 +16,12 @@ public class HelloApplication extends Application {
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
+
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
+
         launch();
+
     }
 }
